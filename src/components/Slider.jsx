@@ -4,6 +4,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import Girl from '../assets/images/chica-modelo.png'
 import { useState } from "react";
 import { sliderItems } from "../data";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
     width: 100%;
@@ -13,6 +14,7 @@ const Container = styled.div`
     position: relative;
     /* margin-top: 2rem; */
     overflow: hidden;
+    ${mobile({ display: "none" })}
 `
 
 const Arrow = styled.div`
