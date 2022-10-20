@@ -3,7 +3,7 @@ import styled from "styled-components"
 const Container = styled.div`
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../src/assets/images/register-login.jpg') center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/register-login.jpg') center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
